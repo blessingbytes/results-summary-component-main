@@ -1,0 +1,151 @@
+/* reset styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+
+}
+
+.mainContainer{
+    width: 600px;
+    height: 400px;
+    /* background-color: red; */
+    border-radius: 20px;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.result{
+    background-color: hsl(241, 81%, 54%);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    width: 50%;
+}
+
+.result h1{
+    color: hsl(241, 100%, 89%);
+    font-size: 20px;
+}
+
+.score{
+    background: hsl(234, 85%, 45%);
+    width: 150px;
+    margin: 24px auto;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score h1{
+    font-size: 48px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.score h1 span{
+    font-size: 16px;
+    color: hsl(241, 100%, 89%);
+}
+
+.result h2{
+    color: white;
+    margin-bottom: 14px;
+}
+
+.result p{
+    color: hsl(241, 100%, 89%);
+    padding: 0 28px;
+}
+
+.summary{
+    padding: 24px;
+    width: 50%;
+}
+
+.summary h1{
+    font-size: 20px;
+    color: hsl(224, 30%, 27%);
+    margin-bottom: 24px;
+
+}
+
+.criterias{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.criterias div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 12px;
+}
+
+.criterias div h5{
+    color: hsl(224, 30%, 27%);
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.criterias div h5 span{
+    color: hsl(241, 100%, 89%)
+}
+
+.reaction{
+    background-color: hsl(0, 100%, 97%);
+}
+
+.reaction h3{
+ color: hsl(0, 100%, 67%);
+}
+
+.memory{
+    background-color: hsl(39, 100%, 97%);
+}
+
+.memory h3{
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal{
+    background-color: hsl(166, 100%, 97%);
+}
+
+.verbal h3{
+    
+    color: hsl(166, 100%, 37%);
+}
+
+.visual{
+    background-color: hsl(234, 85%, 97%);
+}
+
+.visual h3{
+    color: hsl(234, 85%, 45%);
+}
+
+button{
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    width: 100%;
+    border-radius: 50px;
+    padding: 12px 0;
+    margin-top: 16px;
+}
